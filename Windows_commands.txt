@@ -21,6 +21,7 @@ ophcrack
 
 ----------------------------------------------------------------Disable defender-------------------------------------------
 Set-MpPreference -DisableRealtimeMonitoring $true -Verbose
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name "DisableAntiSpyware" -Value 1
 
 Computer Configuration > Administrative Templates > Windows Components > Windows Defender
 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager
