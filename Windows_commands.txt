@@ -4,6 +4,8 @@ Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 
 ---------------------------------------------------Bypass-Windows-authentication-password---------------------
 konboot
+------------------------------------------------VMware workstation paused VM win 10 memory acquisition(memory dump)-----------------------
+.\vmss2core.exe -W8 '.\Win10_20H2_v2-29560b3b.vmss' '.\Win10_20H2_v2-29560b3b.vmem'
 
 ------------------------------------------------------------MS Word-------------------------------------------
 Turn off smart quotes/autocorrection:
