@@ -536,6 +536,11 @@ reg save hklm\system z:\system
 
 reg save hklm\sam z:\sam
 
+----------------------------------------------------------Registry files for forensics--------------------------
+E\Users\<User>\AppData\Local\Microsoft\Windows\UsrClass.dat
+E\Users\<User>\NTUSER.DAT
+
+
 ------------------------------------------------------Powershell creating registry keys---------------------------------------------------------------
 New-Item -Path "HKCU:\SOFTWARE\Policies\Microsoft\Windows\" -Name Explorer
 New-ItemProperty -Path 'HKCU:\SOFTWARE\Policies\Microsoft\Windows\Explorer' -Name DisableSearchBoxSuggestions -Value 1  -PropertyType DWORD -Force
