@@ -9,4 +9,5 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | 
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt-get update -y
 sudo apt-get install sublime-text git -y
+sudo wget -qO- https://api.github.com/repos/VSCodium/vscodium/releases/latest | grep browser_download_url | grep amd64.deb | cut -d '"' -f 4 | wget -i - && sudo apt install -y ./codium*.deb && rm codium*.deb
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions.git /usr/share/zsh-autosuggestions
