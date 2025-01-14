@@ -1,3 +1,4 @@
+#wget -qO- https://raw.githubusercontent.com/pswalia2u/Pentest_Commands/refs/heads/master/env/ready.sh | bash
 touch ~/.hushlogin
 cd ~
 sudo apt update -y && sudo apt install zsh tmux vim -y && sudo apt -y install kali-root-login
