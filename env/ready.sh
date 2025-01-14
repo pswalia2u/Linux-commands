@@ -1,6 +1,6 @@
 touch ~/.hushlogin
 cd ~
-apt update -y && apt install zsh tmux vim -y
+sudo apt update -y && sudo apt install zsh tmux vim -y && sudo apt -y install kali-root-login
 which zsh
 chsh -s `which zsh`
 wget -O .zshrc https://raw.githubusercontent.com/pswalia2u/Pentest_Commands/master/.zshrc
